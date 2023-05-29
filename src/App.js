@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Enter from "./components/Enter.js";
+import JournalEntry from "./components/Entry";
 
 function App() {
   const title = "Journal";
@@ -11,6 +12,7 @@ function App() {
         <h1>{title}</h1>
         <p>{sub}</p>
         <Enter />
+        <JournalEntry />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
