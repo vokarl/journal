@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Enter from "./components/Enter.js";
+
 import JournalEntry from "./components/Entry";
 
 function App() {
@@ -11,7 +11,6 @@ function App() {
       <header className="App-header">
         <h1>{title}</h1>
         <p>{sub}</p>
-        <Enter />
         <JournalEntry />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
